@@ -1,0 +1,21 @@
+nav.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 0 0 1rem 0;
+  flex-wrap: wrap;
+
+  & a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 500;
+    opacity: 0.85;
+  }
+
+  & a:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+    opacity: 1;
+  }
+}

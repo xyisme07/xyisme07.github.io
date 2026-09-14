@@ -1,4 +1,4 @@
-# James 的投资笔记（静态博客 · 部署手册 / Runbook）
+# James 的工作生活笔记（静态博客 · 部署手册 / Runbook）
 
 基于 **Quartz** 的静态博客：在 **Obsidian** 写作 → 推送到 **GitHub** → **GitHub Pages** 自动构建并上线。
 

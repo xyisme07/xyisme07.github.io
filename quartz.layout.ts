@@ -4,11 +4,20 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [
+    Component.Links({
+      links: {
+        首页: "/",
+        文章: "/Blog/",
+        标签: "/tags/",
+        GitHub: "https://github.com/xyisme07",
+      },
+    }),
+  ],
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jamesxu",
+      GitHub: "https://github.com/xyisme07",
     },
   }),
 }
