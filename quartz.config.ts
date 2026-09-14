@@ -2,13 +2,13 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
- * Quartz 4 配置（针对 James 的投资笔记定制）
+ * Quartz 4 配置（针对 James 的工作生活笔记定制）
  * 参考：https://quartz.jzhao.xyz/configuration
  */
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "James的工作生活笔记",
-    pageTitleSuffix: " · James",
+    pageTitleSuffix: " · James的工作生活笔记",
     enableSPA: true,
     enablePopovers: true,
     // 不接外部统计，保护读者隐私；如需统计可改为 "plausible" / "umami"
