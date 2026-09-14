@@ -16,8 +16,8 @@ const config: QuartzConfig = {
       provider: "null",
     },
     locale: "zh-CN",
-    // 上线后改成你的真实域名（如自定义域名 blog.jamesxu.com）
-    baseUrl: "jamesxu.github.io",
+    // 用户站点（GitHub Pages 用户/组织站点），部署在根路径，无子路径
+    baseUrl: "xyisme07.github.io",
     // 不发布的文件夹：private / templates / .obsidian / drafts
     ignorePatterns: ["private", "templates", ".obsidian", "drafts"],
     defaultDateType: "modified",
